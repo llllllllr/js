@@ -20,6 +20,7 @@ class Queue {
 }
 
 const startTime = Date.now();
+
 new Queue()
   .task(1000, () => console.log("1"))
   .task(2000, () => console.log("2"))

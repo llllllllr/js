@@ -18,7 +18,8 @@ function PromiseAll(promises) {
       }
     }
     for (let i = 0; i < promises.length; i++) {
-      promises[i].then((data) => {
+      promises[i].then((dat
+      a) => {
         handleData(data);
       }, reject);
     }
